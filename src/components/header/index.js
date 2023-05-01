@@ -26,6 +26,13 @@ class Header extends React.PureComponent {
             <Button size="none" icon={true} fill="#43464E" name="cart" height="18px" width="20px" />
           </div>
         </div>
+        <div className="currency-list">
+          <ul>
+            <li>$ USD</li>
+            <li>€ EUR</li>
+            <li>¥ JPY</li>
+          </ul>
+        </div>
       </header>
     );
   }

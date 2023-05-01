@@ -3,6 +3,7 @@
 #--header {
   background-color: map-get($color_white, '_0');
   height: 80px;
+  position: relative;
 
   .container {
     padding: 0 100px;
@@ -50,5 +51,28 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+  }
+
+  .currency-list {
+    width: 114px;
+    height: 169px;
+    background-color: white;
+    filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+    padding: 20px 0;
+    position: absolute;
+    top: 66px;
+    right: 78px;
+
+    li {
+      height: 45px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #EEEEEE;
+      }
+    }
   }
 }
