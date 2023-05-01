@@ -1,0 +1,25 @@
+@import '../../styles/colors/colors.scss';
+
+#--product-listing-page {
+  background-color: map-get($color_white, '_0');
+
+  .container {
+    padding: 82px 100px 191px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+  }
+
+  .products-list {
+    padding-top: 102px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 102px 40px;
+  }
+}

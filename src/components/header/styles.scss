@@ -1,0 +1,54 @@
+@import '../../styles/colors/colors.scss';
+
+#--header {
+  background-color: map-get($color_white, '_0');
+  height: 80px;
+
+  .container {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .holder {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 100%;
+
+    > ul {
+      height: 100%;
+      padding: 30px 16px;
+      line-height: 120%;
+      font-size: 16px;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        color: map-get($color_green, '_0');
+        border-color: map-get($color_green, '_0');
+      }
+    }
+  }
+
+  .cart-info {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .logo {
+    width: 30px;
+    background-image: url('../../assets/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}

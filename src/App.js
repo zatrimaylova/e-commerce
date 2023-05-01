@@ -4,13 +4,12 @@
 
 import React from 'react';
 
+import { ProductListingPage } from './pages';
 class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>ljkgjhfdsdxgfcghvjbkhklk;'/,.mnbvc'</p>
-        </header>
+        <ProductListingPage />
       </div>
     );
   }

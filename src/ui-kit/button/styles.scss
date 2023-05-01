@@ -1,0 +1,21 @@
+.button-root {
+  cursor: pointer;
+
+  &.none {
+    background: transparent;
+    border: none;
+    padding: 0 2px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    gap: 10px;
+
+    > svg {
+      align-self: center;
+    }
+  }
+}
