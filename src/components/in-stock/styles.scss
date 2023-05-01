@@ -1,0 +1,38 @@
+.product-in-stock {
+  height: 444px;
+  width: 386px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+  }
+
+  > .product-illustration {
+    height: 330px;
+    width: 354px;
+    background-image: url('../../assets/Image.png');
+    background: no-repeat cover;
+  }
+
+  > .text-info {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 160%;
+    }
+  
+    .price {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 160%;
+    }
+  }
+}
