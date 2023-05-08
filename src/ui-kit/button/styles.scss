@@ -1,9 +1,11 @@
+@import '../../styles/colors/colors.scss';
+
 .button-root {
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 
   &.none {
-    background: transparent;
-    border: none;
     padding: 0 2px;
     height: 30px;
     font-family: 'Raleway';
@@ -16,6 +18,24 @@
 
     > svg {
       align-self: center;
+    }
+  }
+
+  &.outlined {
+    border-color: map-get($color_black, '_0');
+    border: solid 1px;
+    color: map-get($color_black, '_0');
+    padding: 0 15px;
+    //width: 100%;
+
+    &:hover {
+      border: map-get($color_black, '_0') solid 1px;
+      color: white;
+      background-color: map-get($color_black, '_0');
+
+      span {
+        color: white;
+      }
     }
   }
 }

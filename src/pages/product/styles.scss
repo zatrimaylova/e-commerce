@@ -1,0 +1,115 @@
+#--product-page {
+  > .container {
+    padding: 80px 220px 80px 100px;
+    //background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .photos {
+    display: flex;
+    gap: 40px;
+  }
+
+  .carousell {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: burlywood;
+
+    div {
+      height: 80px;
+      width: 80px;
+      background-color: cadetblue;
+    }
+  }
+
+  .view {
+    height: 510px;
+    width: 610px;
+  }
+
+  .description {
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    > .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 27px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      span:last-child {
+        font-weight: 400;
+        //color: aliceblue;
+      }
+    }
+
+    > .characteristics {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      > div > span {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 10px;
+      }
+
+      .sizes {
+        display: flex;
+        gap: 12px;
+        button {
+          height: 45px;
+          width: 63px;
+        }
+      }
+
+      .colors {
+        display: flex;
+        gap: 8px;
+        
+        div {
+          background-color: currentColor;
+          height: 28px;
+          width: 28px;
+        }
+      }
+
+      .price {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        span:last-child {
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    > .text {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #1D1F22;
+    }
+  }
+}

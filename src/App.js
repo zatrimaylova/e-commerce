@@ -4,12 +4,12 @@
 
 import React from 'react';
 
-import { ProductListingPage } from './pages';
+import { ProductPage } from './pages';
 class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
-        <ProductListingPage />
+        <ProductPage />
       </div>
     );
   }
