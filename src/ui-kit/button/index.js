@@ -70,6 +70,7 @@ Button.propTypes = {
   width: PropTypes.string,
   height: PropTypes.string,
   icon: PropTypes.bool,
+  //outlined: PropTypes.bool,
 };
 
 Button.defaultProps = {
@@ -82,6 +83,7 @@ Button.defaultProps = {
   width: '10px',
   height: '10px',
   icon: false,
+  //outlined: false,
 };
 
 export default Button;

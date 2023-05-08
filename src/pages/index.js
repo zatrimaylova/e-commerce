@@ -3,5 +3,6 @@
  */
 
 import ProductListingPage from './product-listing';
+import ProductPage from './product';
 
-export { ProductListingPage };
+export { ProductListingPage, ProductPage };

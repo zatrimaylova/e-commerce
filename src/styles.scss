@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('./styles/colors/colors.scss');
+//@import "~bootstrap/scss/utilities";
 
 * {
   margin: 0;
@@ -8,4 +13,6 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  //color: map-get($color_black, '_0');
+  color: #1D1F22;;
 }
