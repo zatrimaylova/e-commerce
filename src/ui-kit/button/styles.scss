@@ -21,6 +21,22 @@
     }
   }
 
+  &.icon {
+    padding: 0 2px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    gap: 10px;
+
+    > svg {
+      align-self: center;
+    }
+  }
+
   &.outlined {
     border-color: map-get($color_black, '_0');
     border: solid 1px;
@@ -37,5 +53,18 @@
         color: white;
       }
     }
+  }
+
+  &.default {
+    height: 43px;
+    width: 100%;
+    max-width: 292px;
+    background-color: map-get($color_green, '_0');
+    color: map-get($color_white, '_0');
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-transform: uppercase;
   }
 }
